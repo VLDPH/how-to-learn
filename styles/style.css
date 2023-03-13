@@ -37,9 +37,6 @@
   padding-left: 64px;
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.header__title {
   font-size: 102px;
   font-weight: 600px;
 }
@@ -273,6 +270,9 @@
   position: absolute;
   left: 0;
   bottom: 0;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: normal;
 }
 
 .column-link {
@@ -290,7 +290,6 @@
 
 .footer__column-heading {
   margin-bottom: 20px;
-  font-weight: 30px;
   font-size: 18px;
   font-style: 600;
   font-weight: normal;
@@ -303,10 +302,4 @@
 
 ul {
   list-style: none;
-}
-
-.footer_author {
-  font-weight: 600;
-  font-size: 18px;
-  font-style: normal;
 }
