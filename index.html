@@ -11,7 +11,7 @@
     <div class="page">
       <header class="header">
         <img
-          class="logo logo_place-header"
+          class="logo logo_place_header"
           src="./images/logo_place_header.svg"
           alt="лого"
         />
@@ -31,9 +31,9 @@
       <main class="content">
         <section class="description">
           <div class="two-columns">
-            <div class="two-columns__brief">
-              <p class="two-columns__brief_text">Главные проблемы в обучении</p>
-            </div>
+            <p class="two-columns__brief two-columns__brief_text">
+              Главные проблемы в обучении
+            </p>
             <div class="two-columns__main-text">
               <p class="two-columns__paragraph">
                 Ни в школе, ни в институте нас не учат тому, как правильно
@@ -42,7 +42,7 @@
                 но часто в итоге это не дает нам реального знания. Зубрежка
                 быстро выветривается и не приносит пользы.
               </p>
-              <p class="two-columns__paragraph second_paragraph">
+              <p class="two-columns__paragraph">
                 <span class="two-columns__span-accent">Вывод:</span>
                 учиться тоже нужно уметь, но почему-то этому мало где учат. Что
                 с этим делать?
@@ -68,7 +68,7 @@
               <p class="table__text">
                 Число нуждающихся в повышении квалификации
               </p>
-              <p class="table__text-bank">Всемирный Банк, 2017</p>
+              <p class="table__text">Всемирный Банк, 2017</p>
             </div>
             <div class="table__cell">
               <h2 class="table__heading">1000 терабайт</h2>
@@ -87,7 +87,7 @@
                 Число взрослых людей моложе 25 лет, не имеющих образования для
                 трудоустройства
               </p>
-              <p class="table__text-bank">Всемирный Банк, 2017</p>
+              <p class="table__text">Всемирный Банк, 2017</p>
             </div>
             <div class="table__cell">
               <h2 class="table__heading">17–20 лет</h2>
@@ -104,11 +104,11 @@
           </div>
         </section>
         <section class="feynman">
-          <h2 class="feynman-title">Метод Фейнмана</h2>
-          <p class="feynman-subtitle">Выучить и не забыть.</p>
+          <h2 class="feynman__title">Метод Фейнмана</h2>
+          <p class="feynman__subtitle">Выучить и не забыть.</p>
           <a
             target="_blank"
-            class="feynman-link"
+            class="feynman__link"
             href="https://lifehacker.ru/metod-fejnmana/"
             >Подробнее →</a
           >
@@ -191,26 +191,25 @@
             <div class="logo logo_place_footer"></div>
             <p class="footer__author">© 2019. Виктор Абанькин</p>
           </div>
-          <div class="footer__column footer__column_content_info">
+          <nav class="footer__column footer__column_content_info">
             <h3 class="footer__column-heading">О Практикуме</h3>
             <ul class="footer__column-links">
               <li>
                 <a
                   href="https://praktikum.yandex.ru"
-                  target="_blank"
-                  class="column-link"
+                  class="footer__column-link"
                   >Главная</a
                 >
               </li>
-              <li><a href="#" class="column-link">Концепции</a></li>
-              <li><a href="#" class="column-link">Наставники</a></li>
+              <li><a href="#" class="footer__column-link">Концепции</a></li>
+              <li><a href="#" class="footer__column-link">Наставники</a></li>
             </ul>
-          </div>
-          <div class="footer__column footer__column_content_social">
+          </nav>
+          <nav class="footer__column footer__column_content_social">
             <h3 class="footer__column-heading">Соцсети</h3>
             <ul class="footer__column-links">
               <li>
-                <a href="#" class="column-link">
+                <a href="#" class="footer__column-link" target="_blank">
                   <img
                     src="./images/youtube_color_white.svg"
                     alt="Ютуб"
@@ -220,7 +219,7 @@
                 >
               </li>
               <li>
-                <a href="#" class="column-link">
+                <a href="#" class="footer__column-link" target="_blank">
                   <img
                     src="./images/vk_color_white.svg"
                     alt="Вконтакте"
@@ -230,7 +229,7 @@
                 </a>
               </li>
               <li>
-                <a href="#" class="column-link">
+                <a href="#" class="footer__column-link" target="_blank">
                   <img
                     src="./images/tiktok_color_white.svg"
                     alt="ТикТок"
@@ -240,7 +239,7 @@
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </footer>
     </div>
