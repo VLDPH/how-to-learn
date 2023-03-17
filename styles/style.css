@@ -33,6 +33,7 @@
   max-width: 730px;
   padding-left: 64px;
   margin: auto 0;
+  line-height: 96px;
   font-size: 102px;
   font-weight: 600;
 }
@@ -43,9 +44,10 @@
   max-width: 388px;
   bottom: 30px;
   left: 64px;
-  font-weight: 25px;
+  line-height: 25px;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
+  margin: 0;
 }
 
 .header__link,
@@ -89,13 +91,13 @@
   width: 80%;
 }
 
-.two-columns__brief_text {
+.two-columns__brief {
   max-width: 175px;
   color: #2f80ed;
   font-size: 18px;
   line-height: 1.2;
-  font-style: normal;
-  margin-top: 0;
+  font-weight: normal;
+  margin: 0 0;
 }
 
 .two-columns__main-text {
@@ -112,6 +114,10 @@
 
 .two-columns__paragraph:nth-child(2) {
   margin: 30px 0;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .two-columns__span-accent {
@@ -140,8 +146,8 @@
   padding-top: 20px;
   text-align: center;
   font-size: 24px;
-  line-height: 1.15;
-  font-style: normal;
+  line-height: 34px;
+  font-weight: normal;
 }
 
 .table {
@@ -150,24 +156,17 @@
   align-content: flex-start;
   justify-content: space-between;
   width: 1100px;
-  padding-top: 80px;
   margin: 0 auto;
 }
 
 .table__cell {
   width: 250px;
-}
-
-.table__cell:nth-child(1),
-.table__cell:nth-child(2),
-.table__cell:nth-child(3),
-.table__cell:nth-child(4) {
-  margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 .table__heading {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -176,12 +175,8 @@
 .table__text {
   line-height: 1.2;
   font-size: 18px;
-  margin: 0;
-}
-
-.table__text:nth-child(3),
-.table__text:nth-child(7) {
-  margin-top: 20px;
+  font-weight: normal;
+  margin: 20px 0 0 0;
 }
 
 .feynman {
@@ -196,7 +191,9 @@
   max-width: 648px;
   text-align: center;
   margin: auto;
+  line-height: 1.15;
   font-size: 120px;
+  font-weight: 600;
 }
 
 .feynman__subtitle {
@@ -209,7 +206,7 @@
 .feynman__link {
   font-size: 36px;
   line-height: 51px;
-  font-style: normal;
+  font-weight: normal;
 }
 
 .feynman__link {
@@ -303,17 +300,17 @@
 .footer__author {
   line-height: 25px;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
   margin: 18px 0;
 }
 
 .footer__column-link {
   display: flex;
-  justify-content: baseline;
   text-decoration: none;
   color: white;
   line-height: 30px;
   font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column-links {
