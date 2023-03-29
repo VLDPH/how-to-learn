@@ -51,7 +51,7 @@
 .khan__book-pic {
   width: 608px;
   height: 620px;
-  background-image: url(/how-to-learn/images/khan-book.jpg);
+  background-image: url(../../images/khan-book.jpg);
   background-size: cover;
   margin: 0 48px 0 0;
 }
