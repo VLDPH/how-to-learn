@@ -1,0 +1,27 @@
+.resources {
+  padding-top: 100px;
+}
+
+.resources__logo-zone {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px auto 217px auto;
+  text-align: center;
+  width: 1100px;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
+
+.resources__link {
+  text-decoration: none;
+  transition: opacity 0.75s linear;
+  opacity: 1;
+}
+
+.resources__link:hover {
+  transition: opacity 0.1s linear;
+  opacity: 0.5;
+}
